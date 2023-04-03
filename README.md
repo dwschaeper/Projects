@@ -10,7 +10,7 @@ miRNA-classifier: A directory contains miRNA expression data from non-metastatic
 
 # Individual Works
 DEG_analysis.R  
-This R script creates a volcano plot and heatmap of DEGs utilizing the DESeq2 package and input files of gene counts, metadata, and a annotation file.  
+This R script creates a figure showing the raw gene counts of the top 4 DEGs, as well as a volcano plot and heatmap of DEGs utilizing the DESeq2 package and input files of gene counts, metadata, and a annotation file.  
 
 predictive_models.R  
 This R script generates a model to predict the mean RFFT value of individuals within a dataset. Also, different models are made to investigate the effect of female ornamentation in the ruby throat bird on their fitness.  
