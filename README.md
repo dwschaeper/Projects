@@ -9,6 +9,9 @@ Predator/Prey: A graphical simulation of predator prey relationship given parame
 miRNA-classifier: A directory contains miRNA expression data from non-metastatic and metastatic tumors. This data is then processed and the top features are selected through information gain. Those top features are then used to create the classifier.
 
 # Individual Works
+DEG_analysis.R  
+This R script creates a volcano plot and heatmap of DEGs utilizing the DESeq2 package and input files of gene counts, metadata, and a annotation file.  
+
 predictive_models.R  
 This R script generates a model to predict the mean RFFT value of individuals within a dataset. Also, different models are made to investigate the effect of female ornamentation in the ruby throat bird on their fitness.  
   
