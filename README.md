@@ -9,6 +9,9 @@ Predator/Prey: A graphical simulation of predator prey relationship given parame
 miRNA-classifier: A directory contains miRNA expression data from non-metastatic and metastatic tumors. This data is then processed and the top features are selected through information gain. Those top features are then used to create the classifier.
 
 # Individual Works
+scRNA-seq-clustering.R  
+This R script performs cell type clustering based upon PCA and UMAP dimensionality reductions as well as generates a heatmap of biomarkers for the clusters. It takes an input as a directory of output files from cellranger and uses the Seurat package.  
+
 DEG_analysis.R  
 This R script creates a figure showing the raw gene counts of the top 4 DEGs, as well as a volcano plot and heatmap of DEGs utilizing the DESeq2 package and input files of gene counts, metadata, and a annotation file.  
 
